@@ -520,7 +520,7 @@ export function Step3Payment() {
                 type="button"
                 onClick={() => goToStep(2)}
                 aria-label="Edit account email"
-                className="min-h-[44px] -my-2 px-2.5 text-xs font-semibold text-primary hover:underline kh-focus rounded cursor-pointer shrink-0"
+                className="min-h-[44px] min-w-[44px] -my-2 px-2.5 text-xs font-semibold text-primary hover:underline kh-focus rounded cursor-pointer shrink-0"
               >
                 Edit
               </button>
@@ -539,7 +539,7 @@ export function Step3Payment() {
                 type="button"
                 onClick={() => goToStep(2)}
                 aria-label="Edit billing address"
-                className="min-h-[44px] -my-2 px-2.5 text-xs font-semibold text-primary hover:underline kh-focus rounded cursor-pointer shrink-0"
+                className="min-h-[44px] min-w-[44px] -my-2 px-2.5 text-xs font-semibold text-primary hover:underline kh-focus rounded cursor-pointer shrink-0"
               >
                 Edit
               </button>
