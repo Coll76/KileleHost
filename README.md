@@ -2,7 +2,12 @@
 
 A high-fidelity, interactive prototype of an end-to-end web hosting order flow. Customers pick a domain, configure hosting, choose a billing cycle and currency, sign up or log in inline, and pay. It takes three steps, and the cart is never lost along the way.
 
-**Live demo:** _coming soon_
+**Live demo:** https://kilele-host.vercel.app
+
+<p>
+  <img src="docs/desktop.png" alt="Desktop checkout, configure step with sticky order summary" width="72%">
+  <img src="docs/mobile.png" alt="Mobile checkout with fixed bottom order bar" width="24%">
+</p>
 
 ## The flow
 
