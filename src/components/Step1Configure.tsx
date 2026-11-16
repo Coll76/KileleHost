@@ -440,7 +440,7 @@ export function Step1Configure() {
           <div
             role="tablist"
             aria-label="Product verticals"
-            className="mt-4 flex items-center gap-2 overflow-x-auto pb-2 -mx-1 px-1"
+            className="mt-4 flex flex-wrap items-center gap-2 pb-2"
           >
             {VERTICAL_TABS.map((tab) => {
               const isActive = state.activeVertical === tab.id;
@@ -451,7 +451,7 @@ export function Step1Configure() {
                   role="tab"
                   aria-selected={isActive}
                   onClick={() => setActiveVertical(tab.id)}
-                  className={`inline-flex items-center gap-2 min-h-[44px] px-4 py-2 rounded-full text-sm font-semibold whitespace-nowrap shrink-0 transition-all kh-focus cursor-pointer active:scale-[0.98] ${
+                  className={`inline-flex items-center gap-2 min-h-[44px] px-3.5 py-2 rounded-full text-sm font-semibold whitespace-nowrap shrink-0 transition-all kh-focus cursor-pointer active:scale-[0.98] ${
                     isActive
                       ? 'bg-primary text-surface shadow-raised'
                       : 'bg-canvas text-secondary hover:text-ink hover:bg-surface-tint/70 border border-border-subtle'

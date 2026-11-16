@@ -119,7 +119,7 @@ export function SharedHostingTab() {
   return (
     <div className="mt-5 space-y-5 min-w-0">
       {/* Sub-tabs: Web Hosting | WordPress | WooCommerce */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 min-w-0">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center justify-between gap-3 min-w-0">
         {isMobileLayout ? (
           <div className="relative min-w-0 max-w-full">
             <div
@@ -156,7 +156,7 @@ export function SharedHostingTab() {
           <div
             role="tablist"
             aria-label="Shared hosting categories"
-            className="inline-flex items-center gap-1.5 p-1 rounded-full bg-canvas border border-border-subtle overflow-x-auto max-w-full"
+            className="inline-flex shrink-0 items-center gap-1.5 p-1 rounded-full bg-canvas border border-border-subtle max-w-full"
           >
             {SHARED_SUBTABS.map((tab) => {
               const isSelected = subTab === tab.id;
@@ -180,7 +180,7 @@ export function SharedHostingTab() {
           </div>
         )}
 
-        <p className="text-[13px] text-secondary">{activeSubMeta?.subtitle}</p>
+        <p className="text-[13px] text-secondary min-w-[200px] flex-1">{activeSubMeta?.subtitle}</p>
       </div>
 
       {/* 3 Plan Cards: Row on desktop, vertical stack on mobile with Recommended first */}
