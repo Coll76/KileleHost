@@ -1,0 +1,8 @@
+{
+  "name": "Kilele Host — Checkout",
+  "description": "High-fidelity web hosting checkout flow prototype for Kilele Host, featuring transparent multi-term pricing, real-time order summary, and responsive desktop/mobile experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
